@@ -91,9 +91,9 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"r467"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"r17"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
@@ -110,7 +110,7 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"r0"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
@@ -199,9 +199,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
+		"xpos"					"r110"	[$WIN32]
+		"ypos"					"r157"	[$WIN32]
 		"ypos_minmode"			"r134"	[$WIN32]
+		"xpos_minmode"			"r130"
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
 		"wide"					"116"
@@ -878,7 +879,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"215"
+		"ypos"					"309"
 		"wide"					"300"
 		"tall"					"300"
 		"zpos"					"4"
@@ -1053,13 +1054,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r95"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
+		"xpos_minmode"	"r93"	[$WIN32]
 		"ypos"			"r62"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
+		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
+		"wide_minmode"	"100"
 		"tall"			"50"
+		"tall_minmode"	"100"
 	}	
 
 	HudTeamGoal
