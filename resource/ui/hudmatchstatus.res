@@ -277,12 +277,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
-		"ypos"				"24"	[$X360]
+		"xpos"				"-30"
+		"ypos"				"0"
+		"ypos_minmode"		"0"
 		"zpos"				"2"
 		"wide"				"110"
 		"wide_hidef"		"300"
@@ -290,14 +287,13 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"35"
+		"delta_item_start_y"	"12"
+		"delta_item_end_y"		"50"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"HudFontMediumSmall"
 
 		if_match
 		{
@@ -317,23 +313,15 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFontSmall"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
+			"font_lodef"	"HudFontSmall"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"xpos"			"30"
+			"ypos"			"12"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
-			"tall"			"31"
+			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -371,12 +359,12 @@
 		"6v6_gap"	"4"
 		"12v12_gap"	"1"
 
-		"team1_grow_dir" "west"
-		"team1_base_x"	"c-105"
+		"team1_grow_dir" "east"
+		"team1_base_x"	"c82"
 		"team1_max_expand"	"133"
 
-		"team2_grow_dir" "east"
-		"team2_base_x"	"c102"
+		"team2_grow_dir" "west"
+		"team2_base_x"	"c-85"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"

@@ -324,12 +324,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-31"
-		"ypos"			"r68"	[$WIN32]
+		"xpos"			"c-22"
+		"ypos"			"r65"	[$WIN32]
 		"ypos"			"r158"	[$X360]
 		"zpos"			"10"
-		"wide"			"61"
-		"tall"			"61"
+		"wide"			"44"
+		"tall"			"44"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -512,12 +512,12 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
-		"ypos"			"r90"	[$WIN32]
+		"xpos"			"c-30"
+		"ypos"			"r82"	[$WIN32]
 		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		
@@ -528,7 +528,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r77"
 		}
 	}
 

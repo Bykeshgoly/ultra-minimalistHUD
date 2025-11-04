@@ -260,25 +260,25 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_neutral_bottom"
+			"image"			"../hud/cart_neutral"
 			"scaleImage"	"1"
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue_bottom"
+				"image"			"../hud/cart_blue"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red_bottom"
+				"image"			"../hud/cart_red"
 			}
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
-				"ypos"			"43"
-				"wide"			"30"
-				"tall"			"30"
+				"xpos"			"18"
+				"ypos"			"56"
+				"wide"			"15"
+				"tall"			"15"
 			}						
 		}
 		
@@ -312,10 +312,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
-				"ypos"			"71"
-				"wide"			"30"
-				"tall"			"30"
+				"xpos"			"18"
+				"ypos"			"68"
+				"wide"			"15"
+				"tall"			"15"
 			}			
 		}
 		
@@ -447,19 +447,19 @@
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"
-				"xpos"			"25"
+				"xpos"			"11"
 				"wide"			"30"
 				"tall"			"10"
 			}			
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"-5"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"93"
+				"ypos"			"-5"
 			}	
 		}
 		
