@@ -260,17 +260,17 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_neutral"
+			"image"			"../hud/cart_neutral_bottom"
 			"scaleImage"	"1"
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue"
+				"image"			"../hud/cart_blue_bottom"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red"
+				"image"			"../hud/cart_red_bottom"
 			}
 			
 			"if_multiple_trains"
